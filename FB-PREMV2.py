@@ -46,7 +46,7 @@ try:
 	import mechanize
 	from requests.exceptions import ConnectionError
 except ModuleNotFoundError:
-	os.system('xdg-open https://chat.whatsapp.com/DGagCHwuu6c8zTMRli7US8')
+	os.system('clear')
 #------------------[ GLOBAL NAME ]-------------------#
 pretty.install()
 CON=sol()
@@ -60,7 +60,7 @@ console = Console()
 ses=requests.Session()
 id,id2,loop,ok,cp,akun,oprek,lisensiku,tokenku,uid,lisensikuni,method,pwpluss,pwnya= [],[],0,0,0,[],[],[],[],[],[],[],[],[]
 ugen2,ugen,dia,cokbrut,dump,memek,ualu,ualuh,lisensikuni,lisensiku,princp=[],[],[],[],[],[],[],[],[],[],[]
-sys.stdout.write('\x1b]2; AMBF | AraiiXyzz Multi Brute Facebook\x07')
+sys.stdout.write('\x1b]2; AMBF | AXOM959 Multi Brute Facebook\x07')
 #------------------[ USER-AGENT ]-------------------#
 try:
 	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=80000&country=all&ssl=all&anonymity=all').text
@@ -104,12 +104,12 @@ for x in range(10):
 	uak=f'Mozilla/5.0 (Linux; Android {a}; Pixel {b}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
 def uaku():
 	try:
-		ua=open('bbnew.txt','r').read().splitlines()
+		ua=open('fccc.txt','r').read().splitlines()
 		for ub in ua:
 			ugen.append(ub)
 	except:
-		a=requests.get('https://github.com/EC-1709/a/blob/main/bbnew.txt').text
-		ua=open('.bbnew.txt','w')
+		a=requests.get('https://github.com/AXOM959/FCK/blob/master/fccc.txt').text
+		ua=open('.fccc.txt','w')
 		aa=re.findall('line">(.*?)<',str(a))
 		for un in aa:
 			ua.write(un+'\n')
@@ -169,11 +169,11 @@ def clear():
 	os.system('clear')
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
-	cetak(panel(f"""[bold purple]
+	cetak(panel(f"""[bold red]
 ______ ___  _____  ___________  _____  _____ _   __ 
 |  ___/ _ \/  __ \|  ___| ___ \|  _  ||  _  | | / /
-| |_ / /_\ \ /  \/| |__ | |_/ /| | | || | | | |/ /     |  |   telegram @AraiiXyzz
-|  _||  _  | |    |  __|| ___ \| | | || | | |    \     |  |   Script By AraiiXyzz 
+| |_ / /_\ \ /  \/| |__ | |_/ /| | | || | | | |/ /     |  |   
+|  _||  _  | |    |  __|| ___ \| | | || | | |    \     |  |   Script By AXOM959
 | |  | | | | \__/\| |___| |_/ /\ \_/ /\ \_/ / |\  \    |  |   Version 1.0
 \_|  \_| |_/\____/\____/\____/  \___/  \___/\_| \_/                                                                                                                                                                   
              """,width=90,title=f"BANNER",style=f""))
@@ -181,7 +181,7 @@ ______ ___  _____  ___________  _____  _____ _   __
 def login123():
 	os.system('clear')
 	banner()
-	cetak(panel(f"[[bold purple]01[bold white]] Login Menggunakan Cookie              [[bold purple]03[bold white]] Crack Instagram \n[[bold purple]02[bold white]] Menu Crack Tanpa Login                [[bold purple]04[bold white]] Cek Hasil Crack ",width=90,title=f"[bold purple]Menu Bot",padding=(0,2),style=f"bold white"))
+	cetak(panel(f"[[bold red]01[bold white]] Login Menggunakan Cookie              [[bold purple]03[bold white]] Crack Instagram \n[[bold purple]02[bold white]] Menu Crack Tanpa Login                [[bold purple]04[bold white]] Cek Hasil Crack ",width=90,title=f"[bold purple]Menu Bot",padding=(0,2),style=f"bold white"))
 	bryn = input(f' [•] Pilih Menu : ')
 	if bryn in ['1','01']:
 		login_lagi334()
